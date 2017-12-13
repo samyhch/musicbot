@@ -1,0 +1,76 @@
+[33.522844315] 2017-12-13 18:59:30,573 - INFO - launcher: Starting sanity checks
+[33.522844315] 2017-12-13 18:59:30,573 - INFO - launcher: Checking for python 3.5+
+[34.022092819] 2017-12-13 18:59:30,574 - INFO - launcher: Checking console encoding
+[34.022092819] 2017-12-13 18:59:30,574 - INFO - launcher: Setting console encoding to UTF-8
+[34.022092819] 2017-12-13 18:59:30,574 - INFO - launcher: Ensuring we're in the right folder
+[35.520792007] 2017-12-13 18:59:30,575 - INFO - launcher: Adding local bins/ folder to path
+[36.523818970] 2017-12-13 18:59:30,576 - INFO - launcher: Checks passed.
+[36.523818970] 2017-12-13 18:59:30,576 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.2318000793457031] 2017-12-13 18:59:31,772 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 203 in _setup_logging: Set logging level to INFO
+[1.2318000793457031] 2017-12-13 18:59:31,772 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 76 in __init__: Loaded autoplaylist with 2 entries
+[1.233803988] launcher-INFO: Connecting
+[4.1515123844146729] 2017-12-13 18:59:34,691 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 993 in on_ready: Connection established, ready to go.
+[4.1520128250122070] 2017-12-13 18:59:34,692 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 314 in _cache_app_info: Caching app info
+[4.3089060783386230] 2017-12-13 18:59:34,849 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[4.3109092712402344] 2017-12-13 18:59:34,851 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 826 in _scheck_server_permissions: Checking server permissions
+[4.3114073276519775] 2017-12-13 18:59:34,851 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[4.3114073276519775] 2017-12-13 18:59:34,851 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 834 in _scheck_configs: Validating config
+[4.3114073276519775] 2017-12-13 18:59:34,851 - DEBUG - musicbot.config | In config.py::MainThread(7396), line 175 in async_validate: Validating options...
+[4.3114073276519775] 2017-12-13 18:59:34,851 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 837 in _scheck_configs: Validating permissions config
+[4.3114073276519775] 2017-12-13 18:59:34,851 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7396), line 59 in async_validate: Validating permissions...
+[4.3119099140167236] 2017-12-13 18:59:34,852 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[4.3129105567932129] 2017-12-13 18:59:34,853 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1014 in on_ready: Bot:   390538592780550144/MusicBotSV#0348 [BOT]
+[4.3134157657623291] 2017-12-13 18:59:34,853 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1022 in on_ready: Owner: 347029347112321027/samyhch#5264
+
+[4.3139116764068604] 2017-12-13 18:59:34,854 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1025 in on_ready: Server List:
+[4.3144102096557617] 2017-12-13 18:59:34,854 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1026 in <listcomp>:  - SV
+[4.3149123191833496] 2017-12-13 18:59:34,855 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1070 in on_ready: Not bound to any text channels
+[4.3149123191833496] 2017-12-13 18:59:34,855 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1096 in on_ready: Not autojoining any voice channels
+[4.3154230117797852] 2017-12-13 18:59:34,855 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1100 in on_ready: Options:
+[4.3159124851226807] 2017-12-13 18:59:34,856 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1102 in on_ready:   Command prefix: !
+[4.3164110183715820] 2017-12-13 18:59:34,856 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1103 in on_ready:   Default volume: 25%
+[4.3169114589691162] 2017-12-13 18:59:34,857 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[4.3174114227294922] 2017-12-13 18:59:34,857 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[4.3179121017456055] 2017-12-13 18:59:34,858 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1107 in on_ready:   Auto-Summon: Enabled
+[4.3184120655059814] 2017-12-13 18:59:34,858 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1108 in on_ready:   Auto-Playlist: Enabled
+[4.3184120655059814] 2017-12-13 18:59:34,858 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1109 in on_ready:   Auto-Pause: Enabled
+[4.3189127445220947] 2017-12-13 18:59:34,859 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1110 in on_ready:   Delete Messages: Enabled
+[4.3194131851196289] 2017-12-13 18:59:34,859 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1112 in on_ready:     Delete Invoking: Disabled
+[4.3199131488800049] 2017-12-13 18:59:34,860 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1113 in on_ready:   Debug Mode: Disabled
+[4.3204135894775391] 2017-12-13 18:59:34,860 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 1114 in on_ready:   Downloaded songs will be saved
+[4.3229153156280518] 2017-12-13 18:59:34,863 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 242 in _join_startup_channels: Found resumable voice channel SV/General
+[4.3239207267761230] 2017-12-13 18:59:34,864 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 248 in _join_startup_channels: Found owner in "Music"
+[4.3244180679321289] 2017-12-13 18:59:34,864 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 257 in _join_startup_channels: Attempting to join SV/Music
+[4.3249168395996094] 2017-12-13 18:59:34,865 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 427 in get_voice_client: Connection attempt 1 to Music
+[4.3249168395996094] 2017-12-13 18:59:34,865 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[4.3254172801971436] 2017-12-13 18:59:34,865 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[4.3259172439575195] 2017-12-13 18:59:34,866 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.4744436740875244] 2017-12-13 18:59:35,014 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 2528 in on_voice_state_update: Voice state update for 390538592780550144/MusicBotSV#0348 on SV/Music -> [JOIN, MOVE]
+[4.4749488830566406] 2017-12-13 18:59:35,015 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 2539 in on_voice_state_update: 390538592780550144/MusicBotSV#0348 has joined SV/Music
+[4.4774453639984131] 2017-12-13 18:59:35,017 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.5694634914398193] 2017-12-13 18:59:35,109 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[5.0272369384765625] 2017-12-13 18:59:35,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[5.0272369384765625] 2017-12-13 18:59:35,567 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 453 in get_voice_client: Connected in 0.7s
+[5.0272369384765625] 2017-12-13 18:59:35,567 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 454 in get_voice_client: Connected to SV/Music
+[5.0282375812530518] 2017-12-13 18:59:35,568 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 787 in deserialize_queue: Deserializing queue for 390533883076149249
+[5.1678330898284912] 2017-12-13 18:59:35,708 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 545 in get_player: Created player via deserialization for server 390533883076149249 with 1 entries
+[5.1678330898284912] 2017-12-13 18:59:35,708 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 273 in _join_startup_channels: Joined SV/Music
+[5.1688320636749268] 2017-12-13 18:59:35,709 - VOICEDEBUG - musicbot.player | In player.py::MainThread(7396), line 311 in websocket_check: Starting websocket check loop for SV
+[5.1693325042724609] 2017-12-13 18:59:35,709 - FFMPEG - musicbot.player | In player.py::MainThread(7396), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-S37CvSvQN7o-TITA_-_ANTILOPA_Official_4K_Video.webm
+[5.4815430641174316] 2017-12-13 18:59:36,021 - DEBUG - musicbot.bot | In bot.py::MainThread(7396), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[134.9736051559448242] 2017-12-13 19:01:45,513 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 2359 in on_message: 347029347112321027/samyhch#5264: !play
+[140.9708142280578613] 2017-12-13 19:01:51,511 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 2359 in on_message: 347029347112321027/samyhch#5264: !resume
+[140.9718151092529297] 2017-12-13 19:01:51,512 - ERROR - musicbot.bot | In bot.py::MainThread(7396), line 2479 in on_message: Error in resume: CommandError: Player is not paused.
+Traceback (most recent call last):
+  File "C:\Users\samir\Desktop\MusicBot-master\musicbot\bot.py", line 2466, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\samir\Desktop\MusicBot-master\musicbot\bot.py", line 1805, in cmd_resume
+    raise exceptions.CommandError('Player is not paused.', expire_in=30)
+musicbot.exceptions.CommandError: Player is not paused.
+[144.3141071796417236] 2017-12-13 19:01:54,854 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7396), line 2528 in on_voice_state_update: Voice state update for 390538592780550144/MusicBotSV#0348 on SV/General -> [JOIN, MOVE]
+[144.3141071796417236] 2017-12-13 19:01:54,854 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 2539 in on_voice_state_update: 390538592780550144/MusicBotSV#0348 has joined SV/General
+[144.3151078224182129] 2017-12-13 19:01:54,855 - INFO - musicbot.bot | In bot.py::MainThread(7396), line 2554 in on_voice_state_update: Pausing in SV/General (joining empty channel)

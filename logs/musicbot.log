@@ -1,0 +1,486 @@
+[491.572618484] 2017-12-13 19:02:27,096 - INFO - launcher: Starting sanity checks
+[492.573976517] 2017-12-13 19:02:27,097 - INFO - launcher: Checking for python 3.5+
+[492.573976517] 2017-12-13 19:02:27,097 - INFO - launcher: Checking console encoding
+[492.573976517] 2017-12-13 19:02:27,097 - INFO - launcher: Setting console encoding to UTF-8
+[493.571281433] 2017-12-13 19:02:27,098 - INFO - launcher: Ensuring we're in the right folder
+[495.575666428] 2017-12-13 19:02:27,100 - INFO - launcher: Adding local bins/ folder to path
+[496.576547623] 2017-12-13 19:02:27,101 - INFO - launcher: Checks passed.
+[496.576547623] 2017-12-13 19:02:27,101 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.2520880699157715] 2017-12-13 19:02:30,857 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 203 in _setup_logging: Set logging level to INFO
+[4.2525880336761475] 2017-12-13 19:02:30,857 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 76 in __init__: Loaded autoplaylist with 2 entries
+[4.254090309] launcher-INFO: Connecting
+[6.8725142478942871] 2017-12-13 19:02:33,477 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 993 in on_ready: Connection established, ready to go.
+[6.8725142478942871] 2017-12-13 19:02:33,477 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 314 in _cache_app_info: Caching app info
+[7.0212681293487549] 2017-12-13 19:02:33,626 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[7.0262663364410400] 2017-12-13 19:02:33,631 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 826 in _scheck_server_permissions: Checking server permissions
+[7.0262663364410400] 2017-12-13 19:02:33,631 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[7.0272684097290039] 2017-12-13 19:02:33,632 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 834 in _scheck_configs: Validating config
+[7.0272684097290039] 2017-12-13 19:02:33,632 - DEBUG - musicbot.config | In config.py::MainThread(1596), line 175 in async_validate: Validating options...
+[7.0272684097290039] 2017-12-13 19:02:33,632 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 837 in _scheck_configs: Validating permissions config
+[7.0282690525054932] 2017-12-13 19:02:33,633 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1596), line 59 in async_validate: Validating permissions...
+[7.0282690525054932] 2017-12-13 19:02:33,633 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[7.0302698612213135] 2017-12-13 19:02:33,635 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1014 in on_ready: Bot:   390538592780550144/MusicBotSV#0348 [BOT]
+[7.0322754383087158] 2017-12-13 19:02:33,637 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1022 in on_ready: Owner: 347029347112321027/samyhch#5264
+
+[7.0332751274108887] 2017-12-13 19:02:33,638 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1025 in on_ready: Server List:
+[7.0342752933502197] 2017-12-13 19:02:33,639 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1026 in <listcomp>:  - SV
+[7.0352754592895508] 2017-12-13 19:02:33,640 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1070 in on_ready: Not bound to any text channels
+[7.0362761020660400] 2017-12-13 19:02:33,641 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1096 in on_ready: Not autojoining any voice channels
+[7.0382785797119141] 2017-12-13 19:02:33,643 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1100 in on_ready: Options:
+[7.0402774810791016] 2017-12-13 19:02:33,645 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1102 in on_ready:   Command prefix: !
+[7.0412781238555908] 2017-12-13 19:02:33,646 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1103 in on_ready:   Default volume: 25%
+[7.0422782897949219] 2017-12-13 19:02:33,647 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1105 in on_ready:   Skip threshold: 1 votes or 0%
+[7.0422782897949219] 2017-12-13 19:02:33,647 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1106 in on_ready:   Now Playing @mentions: Enabled
+[7.0432791709899902] 2017-12-13 19:02:33,648 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1107 in on_ready:   Auto-Summon: Enabled
+[7.0442798137664795] 2017-12-13 19:02:33,649 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1108 in on_ready:   Auto-Playlist: Enabled
+[7.0442798137664795] 2017-12-13 19:02:33,649 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1109 in on_ready:   Auto-Pause: Enabled
+[7.0452809333801270] 2017-12-13 19:02:33,650 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1110 in on_ready:   Delete Messages: Disabled
+[7.0472824573516846] 2017-12-13 19:02:33,652 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1113 in on_ready:   Debug Mode: Disabled
+[7.0482828617095947] 2017-12-13 19:02:33,653 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 1114 in on_ready:   Downloaded songs will be saved
+[7.0522835254669189] 2017-12-13 19:02:33,657 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 242 in _join_startup_channels: Found resumable voice channel SV/General
+[7.0532848834991455] 2017-12-13 19:02:33,658 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 248 in _join_startup_channels: Found owner in "Music"
+[7.0552902221679688] 2017-12-13 19:02:33,660 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 257 in _join_startup_channels: Attempting to join SV/Music
+[7.0567953586578369] 2017-12-13 19:02:33,662 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 427 in get_voice_client: Connection attempt 1 to Music
+[7.0572967529296875] 2017-12-13 19:02:33,662 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[7.0577950477600098] 2017-12-13 19:02:33,663 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[7.0582988262176514] 2017-12-13 19:02:33,663 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.3127658367156982] 2017-12-13 19:02:33,918 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390538592780550144/MusicBotSV#0348 on SV/Music -> [JOIN, MOVE]
+[7.3127658367156982] 2017-12-13 19:02:33,918 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390538592780550144/MusicBotSV#0348 has joined SV/Music
+[7.3137674331665039] 2017-12-13 19:02:33,919 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.3242719173431396] 2017-12-13 19:02:33,929 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[7.7580811977386475] 2017-12-13 19:02:34,363 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[7.7585816383361816] 2017-12-13 19:02:34,363 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 453 in get_voice_client: Connected in 0.7s
+[7.7585816383361816] 2017-12-13 19:02:34,363 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 454 in get_voice_client: Connected to SV/Music
+[7.7590818405151367] 2017-12-13 19:02:34,364 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 787 in deserialize_queue: Deserializing queue for 390533883076149249
+[7.9417064189910889] 2017-12-13 19:02:34,547 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 545 in get_player: Created player via deserialization for server 390533883076149249 with 1 entries
+[7.9417064189910889] 2017-12-13 19:02:34,547 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 273 in _join_startup_channels: Joined SV/Music
+[7.9426784515380859] 2017-12-13 19:02:34,548 - VOICEDEBUG - musicbot.player | In player.py::MainThread(1596), line 311 in websocket_check: Starting websocket check loop for SV
+[7.9431810379028320] 2017-12-13 19:02:34,548 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-S37CvSvQN7o-TITA_-_ANTILOPA_Official_4K_Video.webm
+[8.4127006530761719] 2017-12-13 19:02:35,018 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[25.1417045593261719] 2017-12-13 19:02:51,747 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/Music -> [DEAFEN]
+[25.8682396411895752] 2017-12-13 19:02:52,473 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/Music -> [UNDEAFEN]
+[61.7109248638153076] 2017-12-13 19:03:28,316 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[66.2801158428192139] 2017-12-13 19:03:32,885 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=kJQP7kiw5Fk
+[69.3094933032989502] 2017-12-13 19:03:35,914 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=kJQP7kiw5Fk
+[69.3134927749633789] 2017-12-13 19:03:35,918 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-kJQP7kiw5Fk-Luis_Fonsi_-_Despacito_ft._Daddy_Yankee.webm
+[69.7565646171569824] 2017-12-13 19:03:36,361 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[149.6588811874389648] 2017-12-13 19:04:56,264 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/General -> [LEAVE, MOVE]
+[152.1611690521240234] 2017-12-13 19:04:58,766 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/Music -> [JOIN, MOVE]
+[152.1611690521240234] 2017-12-13 19:04:58,766 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 347029347112321027/samyhch#5264 has joined SV/Music
+[203.1714155673980713] 2017-12-13 19:05:49,776 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2519 in on_voice_state_update: Empty voice state update, likely a session id change
+[282.0074858665466309] 2017-12-13 19:07:08,612 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [JOIN, CONNECT]
+[282.0074858665466309] 2017-12-13 19:07:08,612 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390548719063400449/Valoria#2532 has joined SV/Music
+[287.6664102077484131] 2017-12-13 19:07:14,271 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [MUTE]
+[336.6326014995574951] 2017-12-13 19:08:03,237 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2519 in on_voice_state_update: Empty voice state update, likely a session id change
+[345.9064908027648926] 2017-12-13 19:08:12,511 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [MUTE]
+[346.7377831935882568] 2017-12-13 19:08:13,343 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [UNMUTE]
+[349.3195581436157227] 2017-12-13 19:08:15,924 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [UNMUTE]
+[351.1465811729431152] 2017-12-13 19:08:17,751 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [MUTE]
+[354.4093034267425537] 2017-12-13 19:08:21,014 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [UNMUTE]
+[354.7083535194396973] 2017-12-13 19:08:21,313 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [MUTE, DEAFEN]
+[355.6161026954650879] 2017-12-13 19:08:22,221 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [UNMUTE, UNDEAFEN]
+[355.7425429821014404] 2017-12-13 19:08:22,347 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=kJQP7kiw5Fk
+[357.7445614337921143] 2017-12-13 19:08:24,349 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-kJQP7kiw5Fk-Luis_Fonsi_-_Despacito_ft._Daddy_Yankee.webm
+[358.1176764965057373] 2017-12-13 19:08:24,723 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[358.3935933113098145] 2017-12-13 19:08:24,998 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [LEAVE, DISCONNECT]
+[358.3940892219543457] 2017-12-13 19:08:24,999 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390548719063400449/Valoria#2532 has left SV/Music
+[364.3080368041992188] 2017-12-13 19:08:30,913 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [JOIN, CONNECT]
+[364.3085372447967529] 2017-12-13 19:08:30,913 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390548719063400449/Valoria#2532 has joined SV/Music
+[366.8408765792846680] 2017-12-13 19:08:33,446 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[366.8934442996978760] 2017-12-13 19:08:33,498 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/Music -> [MUTE]
+[369.9516339302062988] 2017-12-13 19:08:36,557 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=kJQP7kiw5Fk
+[371.9429636001586914] 2017-12-13 19:08:38,548 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-kJQP7kiw5Fk-Luis_Fonsi_-_Despacito_ft._Daddy_Yankee.webm
+[372.5902628898620605] 2017-12-13 19:08:39,195 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[425.7841093540191650] 2017-12-13 19:09:32,389 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play https://www.youtube.com/watch?v=nNA9ru2Ox5o
+[428.1142406463623047] 2017-12-13 19:09:34,719 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[428.1207451820373535] 2017-12-13 19:09:34,726 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=nNA9ru2Ox5o
+[435.3475375175476074] 2017-12-13 19:09:41,952 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[437.4982056617736816] 2017-12-13 19:09:44,103 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=S37CvSvQN7o
+[453.5405275821685791] 2017-12-13 19:10:00,145 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=nNA9ru2Ox5o
+[453.5445299148559570] 2017-12-13 19:10:00,149 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-nNA9ru2Ox5o-Jason_Derulo_-_Tip_Toe_feat_French_Montana_Official_Music_Video.m4a
+[454.0548613071441650] 2017-12-13 19:10:00,660 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[484.9612653255462646] 2017-12-13 19:10:31,566 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/General -> [LEAVE, MOVE]
+[488.9931430816650391] 2017-12-13 19:10:35,598 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390538592780550144/MusicBotSV#0348 on SV/General -> [JOIN, MOVE]
+[488.9931430816650391] 2017-12-13 19:10:35,598 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390538592780550144/MusicBotSV#0348 has joined SV/General
+[490.2186083793640137] 2017-12-13 19:10:36,823 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/General -> [JOIN, MOVE]
+[490.2191083431243896] 2017-12-13 19:10:36,824 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390548719063400449/Valoria#2532 has joined SV/General
+[620.4558594226837158] 2017-12-13 19:12:47,061 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !help
+[664.8145117759704590] 2017-12-13 19:13:31,419 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play him&i
+[668.6991286277770996] 2017-12-13 19:13:35,304 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[671.4348721504211426] 2017-12-13 19:13:38,040 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-S37CvSvQN7o-TITA_-_ANTILOPA_Official_4K_Video.webm
+[671.7790989875793457] 2017-12-13 19:13:38,384 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[671.7861042022705078] 2017-12-13 19:13:38,391 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=SA7AIQw-7Ms
+[671.7871048450469971] 2017-12-13 19:13:38,392 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[864.1900537014007568] 2017-12-13 19:16:50,795 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Échame La Culpa
+[868.7347071170806885] 2017-12-13 19:16:55,340 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[872.1201858520507812] 2017-12-13 19:16:58,725 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-SA7AIQw-7Ms-G-Eazy_Halsey_-_Him_I_Official_Video.webm
+[872.4158816337585449] 2017-12-13 19:16:59,021 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[872.4223859310150146] 2017-12-13 19:16:59,027 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=TyHvyGVs42U
+[872.4268882274627686] 2017-12-13 19:16:59,032 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[874.8409817218780518] 2017-12-13 19:17:01,446 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=TyHvyGVs42U
+[903.0117130279541016] 2017-12-13 19:17:29,617 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play subeme la radio
+[907.8128573894500732] 2017-12-13 19:17:34,418 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[947.6505923271179199] 2017-12-13 19:18:14,255 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play the beautiful & damned
+[951.7301454544067383] 2017-12-13 19:18:18,335 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[967.9822049140930176] 2017-12-13 19:18:34,587 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play i got you
+[972.2736706733703613] 2017-12-13 19:18:38,879 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1031.6853783130645752] 2017-12-13 19:19:38,290 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Me, Myself & I
+[1036.8224241733551025] 2017-12-13 19:19:43,427 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1158.6974618434906006] 2017-12-13 19:21:45,302 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-TyHvyGVs42U-Luis_Fonsi_Demi_Lovato_-_Echame_La_Culpa.webm
+[1159.0180163383483887] 2017-12-13 19:21:45,623 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1159.0245206356048584] 2017-12-13 19:21:45,629 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=9sg-A-eS6Ig
+[1159.0290234088897705] 2017-12-13 19:21:45,634 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1162.3018674850463867] 2017-12-13 19:21:48,907 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=9sg-A-eS6Ig
+[1369.4603767395019531] 2017-12-13 19:25:16,065 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-9sg-A-eS6Ig-Enrique_Iglesias_-_SUBEME_LA_RADIO_Official_Video_ft._Descemer_Bueno_Zion_Lennox.webm
+[1369.7697024345397949] 2017-12-13 19:25:16,375 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1369.7757043838500977] 2017-12-13 19:25:16,381 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=6PUf1Rj4kpc
+[1369.7802076339721680] 2017-12-13 19:25:16,385 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1371.6793582439422607] 2017-12-13 19:25:18,284 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=6PUf1Rj4kpc
+[1415.8229935169219971] 2017-12-13 19:26:02,428 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Charly Black, Luis Fonsi - Party Animal
+[1419.9768297672271729] 2017-12-13 19:26:06,582 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1466.7939839363098145] 2017-12-13 19:26:53,399 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play gold chet faker
+[1471.0389435291290283] 2017-12-13 19:26:57,644 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1522.4663248062133789] 2017-12-13 19:27:49,071 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play gangsta the first station
+[1526.6723484992980957] 2017-12-13 19:27:53,277 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1592.0464766025543213] 2017-12-13 19:28:58,651 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[1592.0514771938323975] 2017-12-13 19:28:58,656 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6PUf1Rj4kpc-G-Eazy_-_The_Beautiful_Damned_Audio_ft._Zoe_Nash.webm
+[1592.3466763496398926] 2017-12-13 19:28:58,952 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1592.3541798591613770] 2017-12-13 19:28:58,959 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=uEJuoEs1UxY
+[1592.3581833839416504] 2017-12-13 19:28:58,963 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1594.1967334747314453] 2017-12-13 19:29:00,802 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=uEJuoEs1UxY
+[1661.7668242454528809] 2017-12-13 19:30:08,372 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Afrojack & Martin Garrix - Turn Up The Speakers (Official Music Video)
+[1665.9233696460723877] 2017-12-13 19:30:12,528 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1782.5897779464721680] 2017-12-13 19:32:09,195 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-uEJuoEs1UxY-Bebe_Rexha_-_I_Got_You_Official_Music_Video.webm
+[1782.9044804573059082] 2017-12-13 19:32:09,509 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1782.9124863147735596] 2017-12-13 19:32:09,517 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=bSfpSOBD30U
+[1782.9164886474609375] 2017-12-13 19:32:09,521 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1785.6281707286834717] 2017-12-13 19:32:12,233 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=bSfpSOBD30U
+[1792.4995496273040771] 2017-12-13 19:32:19,104 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play perfect ed
+[1797.3902561664581299] 2017-12-13 19:32:23,995 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1824.1603260040283203] 2017-12-13 19:32:50,765 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play the shape of you
+[1829.6274855136871338] 2017-12-13 19:32:56,232 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1950.7938518524169922] 2017-12-13 19:34:57,399 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play ready for it
+[1954.9685387611389160] 2017-12-13 19:35:01,573 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1979.7055771350860596] 2017-12-13 19:35:26,310 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-bSfpSOBD30U-G-Eazy_x_Bebe_Rexha_-_Me_Myself_I.webm
+[1980.0042736530303955] 2017-12-13 19:35:26,609 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1980.0107781887054443] 2017-12-13 19:35:26,616 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=P5C--jQjYgw
+[1980.0147826671600342] 2017-12-13 19:35:26,620 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[1981.6171998977661133] 2017-12-13 19:35:28,222 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=P5C--jQjYgw
+[2012.6318039894104004] 2017-12-13 19:35:59,237 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play ms rose
+[2016.9276926517486572] 2017-12-13 19:36:03,533 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2084.4932122230529785] 2017-12-13 19:37:11,098 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !help
+[2094.4606447219848633] 2017-12-13 19:37:21,066 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !volume
+[2104.6431522369384766] 2017-12-13 19:37:31,248 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !volume 50
+[2122.6819846630096436] 2017-12-13 19:37:49,287 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !volume 100
+[2163.2540707588195801] 2017-12-13 19:38:29,859 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !skip
+[2163.3386199474334717] 2017-12-13 19:38:29,943 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-P5C--jQjYgw-Charly_Black_Luis_Fonsi_-_Party_Animal.webm
+[2163.6358168125152588] 2017-12-13 19:38:30,241 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2163.6438221931457520] 2017-12-13 19:38:30,249 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=hi4pzKvuEQM
+[2163.6483256816864014] 2017-12-13 19:38:30,253 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2167.2120435237884521] 2017-12-13 19:38:33,817 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=hi4pzKvuEQM
+[2220.8397390842437744] 2017-12-13 19:39:27,445 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play ain't my fault
+[2224.8835744857788086] 2017-12-13 19:39:31,488 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2238.0807201862335205] 2017-12-13 19:39:44,686 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play sax
+[2242.3317854404449463] 2017-12-13 19:39:48,937 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2249.8925421237945557] 2017-12-13 19:39:56,497 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play wherever i go
+[2254.1735646724700928] 2017-12-13 19:40:00,778 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2275.9715604782104492] 2017-12-13 19:40:22,576 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play talking body tove lo
+[2280.1807632446289062] 2017-12-13 19:40:26,786 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2318.7265861034393311] 2017-12-13 19:41:05,331 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play 10 victorias secret models
+[2325.4865052700042725] 2017-12-13 19:41:12,091 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/General -> [DEAFEN]
+[2326.2777256965637207] 2017-12-13 19:41:12,883 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2361.6399998664855957] 2017-12-13 19:41:48,245 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play here alessia cara
+[2365.8201272487640381] 2017-12-13 19:41:52,425 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2366.1577348709106445] 2017-12-13 19:41:52,763 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-hi4pzKvuEQM-Chet_Faker_-_Gold_Official_Music_Video.webm
+[2366.4439265727996826] 2017-12-13 19:41:53,049 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2366.4509310722351074] 2017-12-13 19:41:53,056 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=XXeu2dYnw88
+[2366.4554316997528076] 2017-12-13 19:41:53,060 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2368.6725621223449707] 2017-12-13 19:41:55,277 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=XXeu2dYnw88
+[2371.6090638637542725] 2017-12-13 19:41:58,214 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play final song
+[2375.9442684650421143] 2017-12-13 19:42:02,549 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2390.5890717506408691] 2017-12-13 19:42:17,194 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/General -> [UNDEAFEN]
+[2417.2824146747589111] 2017-12-13 19:42:43,887 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play messin around
+[2421.1918497085571289] 2017-12-13 19:42:47,797 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2435.8729255199432373] 2017-12-13 19:43:02,478 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !play havana
+[2440.7115294933319092] 2017-12-13 19:43:07,316 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2463.0072400569915771] 2017-12-13 19:43:29,612 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play sexyback
+[2467.1337673664093018] 2017-12-13 19:43:33,739 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2489.4278459548950195] 2017-12-13 19:43:56,033 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play if i lose myself
+[2493.8806104660034180] 2017-12-13 19:44:00,485 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2498.0820930004119873] 2017-12-13 19:44:04,687 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play geroi
+[2501.8441462516784668] 2017-12-13 19:44:08,449 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2532.6734061241149902] 2017-12-13 19:44:39,278 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play california
+[2536.3066825866699219] 2017-12-13 19:44:42,912 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2564.0285904407501221] 2017-12-13 19:45:10,633 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play california emilia
+[2568.1467430591583252] 2017-12-13 19:45:14,752 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2607.6813793182373047] 2017-12-13 19:45:54,286 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play had some drinks
+[2611.8644292354583740] 2017-12-13 19:45:58,469 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2626.3652796745300293] 2017-12-13 19:46:12,970 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-XXeu2dYnw88-The_First_Station_-_Gangsta_Kat_Dahlia_vocal.webm
+[2626.7677152156829834] 2017-12-13 19:46:13,373 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2626.7897322177886963] 2017-12-13 19:46:13,395 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=dzHdo4yxidc
+[2626.7977333068847656] 2017-12-13 19:46:13,403 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2628.8634767532348633] 2017-12-13 19:46:15,468 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=dzHdo4yxidc
+[2676.6292226314544678] 2017-12-13 19:47:03,234 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Kehlani - Gangsta
+[2681.1092824935913086] 2017-12-13 19:47:07,714 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2721.5728783607482910] 2017-12-13 19:47:48,178 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !volume 75
+[2906.8083996772766113] 2017-12-13 19:50:53,413 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-dzHdo4yxidc-Afrojack_Martin_Garrix_-_Turn_Up_The_Speakers_Official_Music_Video.webm
+[2907.0937845706939697] 2017-12-13 19:50:53,699 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2907.1007893085479736] 2017-12-13 19:50:53,706 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=2Vv-BfVoq4g
+[2907.1062951087951660] 2017-12-13 19:50:53,711 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[2909.0327887535095215] 2017-12-13 19:50:55,638 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=2Vv-BfVoq4g
+[3096.5942564010620117] 2017-12-13 19:54:03,199 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-2Vv-BfVoq4g-Ed_Sheeran_-_Perfect_Official_Music_Video.webm
+[3096.9124670028686523] 2017-12-13 19:54:03,517 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3096.9234740734100342] 2017-12-13 19:54:03,528 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=JGwWNGJdvx8
+[3096.9304783344268799] 2017-12-13 19:54:03,535 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3100.4106469154357910] 2017-12-13 19:54:07,016 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=JGwWNGJdvx8
+[3376.7541263103485107] 2017-12-13 19:58:43,359 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-JGwWNGJdvx8-Ed_Sheeran_-_Shape_of_You_Official_Video.webm
+[3377.0653340816497803] 2017-12-13 19:58:43,670 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3377.0733416080474854] 2017-12-13 19:58:43,678 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=wIft-t-MQuE
+[3377.0778448581695557] 2017-12-13 19:58:43,683 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3378.7785243988037109] 2017-12-13 19:58:45,383 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=wIft-t-MQuE
+[3640.3075280189514160] 2017-12-13 20:03:06,912 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wIft-t-MQuE-Taylor_Swift_-_Ready_For_It.webm
+[3640.6399631500244141] 2017-12-13 20:03:07,245 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3640.6474652290344238] 2017-12-13 20:03:07,252 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Vr1qz93xDCY
+[3640.6519656181335449] 2017-12-13 20:03:07,257 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3642.4862484931945801] 2017-12-13 20:03:09,091 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=Vr1qz93xDCY
+[3851.4805598258972168] 2017-12-13 20:06:38,085 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Vr1qz93xDCY-G-Eazy_-_Dear_Ms._Rose.webm
+[3851.8278369903564453] 2017-12-13 20:06:38,433 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3851.8363461494445801] 2017-12-13 20:06:38,441 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=eC-F_VZ2T1c
+[3851.8423495292663574] 2017-12-13 20:06:38,447 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[3854.3641667366027832] 2017-12-13 20:06:40,969 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=eC-F_VZ2T1c
+[4046.1515629291534424] 2017-12-13 20:09:52,756 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-eC-F_VZ2T1c-Zara_Larsson_-_Ain_t_My_Fault_Official_Video.webm
+[4046.5128033161163330] 2017-12-13 20:09:53,118 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4046.5218088626861572] 2017-12-13 20:09:53,127 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=3JZ4pnNtyxQ
+[4046.5263121128082275] 2017-12-13 20:09:53,131 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4048.7148363590240479] 2017-12-13 20:09:55,320 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=3JZ4pnNtyxQ
+[4269.8941528797149658] 2017-12-13 20:13:36,499 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3JZ4pnNtyxQ-Fleur_East_-_Sax_Official_Video.webm
+[4270.2078611850738525] 2017-12-13 20:13:36,813 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4270.2178685665130615] 2017-12-13 20:13:36,823 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=OXWrjWDQh7Q
+[4270.2228717803955078] 2017-12-13 20:13:36,828 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4272.5212972164154053] 2017-12-13 20:13:39,126 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=OXWrjWDQh7Q
+[4509.6098656654357910] 2017-12-13 20:17:36,215 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-OXWrjWDQh7Q-OneRepublic_-_Wherever_I_Go_Official_Video.webm
+[4509.9710304737091064] 2017-12-13 20:17:36,576 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4509.9805378913879395] 2017-12-13 20:17:36,585 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=AzRyxGBGiAE
+[4509.9855415821075439] 2017-12-13 20:17:36,590 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4512.5620181560516357] 2017-12-13 20:17:39,167 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=AzRyxGBGiAE
+[4720.5523741245269775] 2017-12-13 20:21:07,157 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-AzRyxGBGiAE-Tove_Lo_-_Talking_Body.webm
+[4720.9702694416046143] 2017-12-13 20:21:07,575 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4720.9812769889831543] 2017-12-13 20:21:07,586 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=V_lDJRUSBio
+[4720.9867813587188721] 2017-12-13 20:21:07,592 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4724.0462136268615723] 2017-12-13 20:21:10,651 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=V_lDJRUSBio
+[4957.7721512317657471] 2017-12-13 20:25:04,377 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-V_lDJRUSBio-MAX_-_10_Victoria_s_Secret_Models_Audio.webm
+[4958.0746204853057861] 2017-12-13 20:25:04,679 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4958.0841245651245117] 2017-12-13 20:25:04,689 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=UKp2CrfmVfw
+[4958.0886275768280029] 2017-12-13 20:25:04,694 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[4961.8189992904663086] 2017-12-13 20:25:08,424 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=UKp2CrfmVfw
+[5184.2561604976654053] 2017-12-13 20:28:50,861 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UKp2CrfmVfw-Alessia_Cara_-_Here.m4a
+[5184.6049816608428955] 2017-12-13 20:28:51,210 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5184.6124875545501709] 2017-12-13 20:28:51,217 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=WUcXQ--yGWQ
+[5184.6189892292022705] 2017-12-13 20:28:51,224 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5187.1699059009552002] 2017-12-13 20:28:53,775 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=WUcXQ--yGWQ
+[5290.6872107982635498] 2017-12-13 20:30:37,292 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Jennifer Lopez - On The Floor ft. Pitbull
+[5295.0516901016235352] 2017-12-13 20:30:41,657 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5394.6461222171783447] 2017-12-13 20:32:21,251 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-WUcXQ--yGWQ-MO_-_Final_Song_Official_Video.webm
+[5394.9528281688690186] 2017-12-13 20:32:21,558 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5394.9733481407165527] 2017-12-13 20:32:21,578 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=6X3SAs-5GUE
+[5394.9813454151153564] 2017-12-13 20:32:21,586 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5397.2963128089904785] 2017-12-13 20:32:23,901 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=6X3SAs-5GUE
+[5647.2340176105499268] 2017-12-13 20:36:33,839 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6X3SAs-5GUE-Pitbull_with_Enrique_Iglesias_-_Messin_Around_Official_Video.webm
+[5647.5837891101837158] 2017-12-13 20:36:34,189 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5647.5922820568084717] 2017-12-13 20:36:34,197 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=HCjNJDNzw8Y
+[5647.5967879295349121] 2017-12-13 20:36:34,202 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5649.8282902240753174] 2017-12-13 20:36:36,433 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=HCjNJDNzw8Y
+[5870.8853564262390137] 2017-12-13 20:40:17,490 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-HCjNJDNzw8Y-Camila_Cabello_-_Havana_Audio_ft._Young_Thug.webm
+[5871.1800487041473389] 2017-12-13 20:40:17,785 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5871.1880521774291992] 2017-12-13 20:40:17,793 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=3gOHvDP_vCs
+[5871.1925582885742188] 2017-12-13 20:40:17,797 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[5873.3485858440399170] 2017-12-13 20:40:19,953 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=3gOHvDP_vCs
+[6089.7017233371734619] 2017-12-13 20:43:56,307 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3gOHvDP_vCs-Justin_Timberlake_-_SexyBack_Director_s_Cut_ft._Timbaland.webm
+[6090.0714564323425293] 2017-12-13 20:43:56,676 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6090.0809602737426758] 2017-12-13 20:43:56,686 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=TGx0rApSk6w
+[6090.0859653949737549] 2017-12-13 20:43:56,691 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6096.5977272987365723] 2017-12-13 20:44:03,203 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=TGx0rApSk6w
+[6193.6822254657745361] 2017-12-13 20:45:40,287 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play centuries
+[6197.9441895484924316] 2017-12-13 20:45:44,549 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6344.4101467132568359] 2017-12-13 20:48:11,015 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 390548719063400449/Valoria#2532: !skip
+[6344.4136476516723633] 2017-12-13 20:48:11,019 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-TGx0rApSk6w-OneRepublic_-_If_I_Lose_Myself.webm
+[6344.7183508872985840] 2017-12-13 20:48:11,323 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6344.7323601245880127] 2017-12-13 20:48:11,337 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=uP_WM1U1iig
+[6344.7408659458160400] 2017-12-13 20:48:11,346 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6347.3318862915039062] 2017-12-13 20:48:13,937 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=uP_WM1U1iig
+[6606.5203459262847900] 2017-12-13 20:52:33,125 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-uP_WM1U1iig-Krisko_feat._Pavell_Venci_Venc_-_GEROI_Official_4K_Video.webm
+[6606.8526468276977539] 2017-12-13 20:52:33,458 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6606.8606522083282471] 2017-12-13 20:52:33,466 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=32YGGYaUTgE
+[6606.8656554222106934] 2017-12-13 20:52:33,471 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6609.4460244178771973] 2017-12-13 20:52:36,051 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=32YGGYaUTgE
+[6850.8746268749237061] 2017-12-13 20:56:37,480 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-32YGGYaUTgE-Fighting_California_s_Wildfires_-_Stunning_Footage_from_the_Front_Lines.webm
+[6851.3074157238006592] 2017-12-13 20:56:37,912 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6851.3184235095977783] 2017-12-13 20:56:37,923 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=5faf6cYNUVA
+[6851.3249278068542480] 2017-12-13 20:56:37,930 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6853.4563517570495605] 2017-12-13 20:56:40,061 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=5faf6cYNUVA
+[6949.7798986434936523] 2017-12-13 20:58:16,385 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[6949.7899043560028076] 2017-12-13 20:58:16,395 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-5faf6cYNUVA-EMILIA_ft._DJ_TSETSI_LUDATA_GLAVA_-_California_ft._DJ_-_California_2016.webm
+[6950.1971752643585205] 2017-12-13 20:58:16,802 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6950.2106847763061523] 2017-12-13 20:58:16,816 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=k7mkdb5y3As
+[6950.2171883583068848] 2017-12-13 20:58:16,822 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[6951.9793651103973389] 2017-12-13 20:58:18,584 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=k7mkdb5y3As
+[7196.7006905078887939] 2017-12-13 21:02:23,306 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play new rules
+[7202.1839754581451416] 2017-12-13 21:02:28,789 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7223.3395254611968994] 2017-12-13 21:02:49,944 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-k7mkdb5y3As-Two_Feet_-_Had_Some_Drinks.webm
+[7223.6287188529968262] 2017-12-13 21:02:50,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7223.6372268199920654] 2017-12-13 21:02:50,242 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=LAYgZEMMWxo
+[7223.6437284946441650] 2017-12-13 21:02:50,249 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7225.8509228229522705] 2017-12-13 21:02:52,456 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=LAYgZEMMWxo
+[7364.6103603839874268] 2017-12-13 21:05:11,215 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-LAYgZEMMWxo-Kehlani_-_Gangsta_From_Suicide_Squad_-_The_Album_Official_Video.webm
+[7364.9861121177673340] 2017-12-13 21:05:11,591 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7364.9961185455322266] 2017-12-13 21:05:11,601 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=t4H_Zoh7G5A
+[7365.0021228790283203] 2017-12-13 21:05:11,607 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7367.9935371875762939] 2017-12-13 21:05:14,598 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=t4H_Zoh7G5A
+[7544.6476910114288330] 2017-12-13 21:08:11,253 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-t4H_Zoh7G5A-Jennifer_Lopez_-_On_The_Floor_ft._Pitbull.webm
+[7545.0159370899200439] 2017-12-13 21:08:11,621 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7545.0254433155059814] 2017-12-13 21:08:11,630 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=LBr7kECsjcQ
+[7545.0314447879791260] 2017-12-13 21:08:11,636 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7547.7767651081085205] 2017-12-13 21:08:14,382 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=LBr7kECsjcQ
+[7811.3972606658935547] 2017-12-13 21:12:38,002 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-LBr7kECsjcQ-Fall_Out_Boy_-_Centuries_Official_Video.webm
+[7811.7109715938568115] 2017-12-13 21:12:38,316 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7811.7189743518829346] 2017-12-13 21:12:38,324 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=k2qgadSvNyU
+[7811.7239778041839600] 2017-12-13 21:12:38,329 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7814.7362763881683350] 2017-12-13 21:12:41,341 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=k2qgadSvNyU
+[7863.0267665386199951] 2017-12-13 21:13:29,632 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play downtown
+[7867.6060283184051514] 2017-12-13 21:13:34,211 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7919.7665150165557861] 2017-12-13 21:14:26,371 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play bonita
+[7924.1304240226745605] 2017-12-13 21:14:30,735 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[7947.7898418903350830] 2017-12-13 21:14:54,395 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play j balvin
+[7953.6785829067230225] 2017-12-13 21:15:00,283 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8000.3937299251556396] 2017-12-13 21:15:46,999 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play mystery
+[8005.4656977653503418] 2017-12-13 21:15:52,071 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8018.9223163127899170] 2017-12-13 21:16:05,527 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play mystery the first station
+[8022.8350543975830078] 2017-12-13 21:16:09,440 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8083.4332244396209717] 2017-12-13 21:17:10,038 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-k2qgadSvNyU-Dua_Lipa_-_New_Rules_Official_Music_Video.webm
+[8083.7854616641998291] 2017-12-13 21:17:10,390 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8083.7949683666229248] 2017-12-13 21:17:10,400 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=wlS6Ix7mA0w
+[8083.8019702434539795] 2017-12-13 21:17:10,407 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8088.0363442897796631] 2017-12-13 21:17:14,641 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=wlS6Ix7mA0w
+[8109.5953042507171631] 2017-12-13 21:17:36,200 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play pablo escobar milioni
+[8113.4950189590454102] 2017-12-13 21:17:40,100 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8308.4260208606719971] 2017-12-13 21:20:55,031 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wlS6Ix7mA0w-Anitta_J_Balvin_-_Downtown_Official_Music_Video.m4a
+[8308.8048214912414551] 2017-12-13 21:20:55,410 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8308.8123240470886230] 2017-12-13 21:20:55,417 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=SqpvOqRieYY
+[8308.8168296813964844] 2017-12-13 21:20:55,422 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8311.8803844451904297] 2017-12-13 21:20:58,485 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=SqpvOqRieYY
+[8508.0663256645202637] 2017-12-13 21:24:14,671 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-SqpvOqRieYY-J_Balvin_Jowell_Randy_-_Bonita.webm
+[8508.4185776710510254] 2017-12-13 21:24:15,023 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8508.4265851974487305] 2017-12-13 21:24:15,031 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=wnJ6LuUFpMo
+[8508.4315891265869141] 2017-12-13 21:24:15,036 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8511.4913291931152344] 2017-12-13 21:24:18,096 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=wnJ6LuUFpMo
+[8783.5598454475402832] 2017-12-13 21:28:50,165 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wnJ6LuUFpMo-J_Balvin_Willy_William_-_Mi_Gente_Official_Video.webm
+[8783.9220399856567383] 2017-12-13 21:28:50,527 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8783.9295444488525391] 2017-12-13 21:28:50,534 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=zGN959Wt5SY
+[8783.9350483417510986] 2017-12-13 21:28:50,540 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8786.6252524852752686] 2017-12-13 21:28:53,230 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=zGN959Wt5SY
+[8921.8930940628051758] 2017-12-13 21:31:08,498 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !help
+[8946.5427422523498535] 2017-12-13 21:31:33,148 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !clean 5 Unsolved Mysteries Caught on Tape
+[8946.7198483943939209] 2017-12-13 21:31:33,325 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 888 in safe_delete_message: Cannot delete message "!clean 5 Unsolved Mysteries Caught on Tape", no permission
+[8969.7628984451293945] 2017-12-13 21:31:56,368 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-zGN959Wt5SY-5_Unsolved_Mysteries_Caught_on_Tape.webm
+[8970.0546195507049561] 2017-12-13 21:31:56,659 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8970.0621242523193359] 2017-12-13 21:31:56,667 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=AfDSvX5qlKA
+[8970.0676288604736328] 2017-12-13 21:31:56,673 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8970.4324424266815186] 2017-12-13 21:31:57,037 - WARNING - musicbot.bot | In bot.py::MainThread(1596), line 891 in safe_delete_message: Cannot delete message "@samyhch - your song **J Balvin, Willy William - Mi Gente (Official Video)** is now playing in General!", message not found
+[8973.2255494594573975] 2017-12-13 21:31:59,830 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=AfDSvX5qlKA
+[8974.4529769420623779] 2017-12-13 21:32:01,058 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[8974.4559764862060547] 2017-12-13 21:32:01,061 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-AfDSvX5qlKA-The_First_Station_Mystery_Kate_Wild_Vocal.webm
+[8974.7461702823638916] 2017-12-13 21:32:01,351 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8974.7541756629943848] 2017-12-13 21:32:01,359 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=TnzBQWmR2lY
+[8974.7581787109375000] 2017-12-13 21:32:01,363 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[8977.3111634254455566] 2017-12-13 21:32:03,916 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=TnzBQWmR2lY
+[9000.5478634834289551] 2017-12-13 21:32:27,153 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play do i wanna know
+[9005.1822071075439453] 2017-12-13 21:32:31,787 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9192.4480552673339844] 2017-12-13 21:35:39,053 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play nqma chakai
+[9196.3202953338623047] 2017-12-13 21:35:42,925 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9280.6675233840942383] 2017-12-13 21:37:07,272 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-TnzBQWmR2lY-Milioni_Gangsta_Man_-Pablo_Escobar_official_video.webm
+[9281.4499530792236328] 2017-12-13 21:37:08,055 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9281.4584617614746094] 2017-12-13 21:37:08,063 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=bpOSxM0rNPM
+[9281.4644622802734375] 2017-12-13 21:37:08,069 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9283.9740211963653564] 2017-12-13 21:37:10,579 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=bpOSxM0rNPM
+[9363.9586617946624756] 2017-12-13 21:38:30,564 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter "How Bad Do You Want It"
+[9368.8319327831268311] 2017-12-13 21:38:35,437 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9401.9632134437561035] 2017-12-13 21:39:08,568 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter How Bad Do You Want It
+[9405.9662649631500244] 2017-12-13 21:39:12,571 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9476.9070575237274170] 2017-12-13 21:40:23,512 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play https://www.youtube.com/watch?v=iGmVQlATHkk
+[9479.2454345226287842] 2017-12-13 21:40:25,850 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9485.7116489410400391] 2017-12-13 21:40:32,317 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-bpOSxM0rNPM-Arctic_Monkeys_-_Do_I_Wanna_Know_Official_Video.webm
+[9486.5006718635559082] 2017-12-13 21:40:33,106 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9486.5101788043975830] 2017-12-13 21:40:33,115 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=vr7Xy8POfEM
+[9486.5151848793029785] 2017-12-13 21:40:33,120 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9489.8350286483764648] 2017-12-13 21:40:36,440 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=vr7Xy8POfEM
+[9614.9269540309906006] 2017-12-13 21:42:41,532 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play https://www.youtube.com/watch?v=Vg_UQwrY1FY
+[9618.3776767253875732] 2017-12-13 21:42:44,983 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9752.2021176815032959] 2017-12-13 21:44:58,807 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-vr7Xy8POfEM-F.O._-_Official_Video.webm
+[9752.5968768596649170] 2017-12-13 21:44:59,202 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9752.6068832874298096] 2017-12-13 21:44:59,212 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=X7rdg_tKzKQ
+[9752.6148881912231445] 2017-12-13 21:44:59,220 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[9754.6245608329772949] 2017-12-13 21:45:01,229 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=X7rdg_tKzKQ
+[10021.8988218307495117] 2017-12-13 21:49:28,504 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-X7rdg_tKzKQ-Ride_Out_-_Kid_Ink_Tyga_Wale_YG_Rich_Homie_Quan_Official_Video_-_Furious_7.webm
+[10022.6649339199066162] 2017-12-13 21:49:29,270 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10022.6824493408203125] 2017-12-13 21:49:29,287 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=6Ugaq6r6sQE
+[10022.6899518966674805] 2017-12-13 21:49:29,295 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10025.9573121070861816] 2017-12-13 21:49:32,562 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=6Ugaq6r6sQE
+[10235.4079210758209229] 2017-12-13 21:53:02,013 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6Ugaq6r6sQE-Sevyn_Streeter_-_How_Bad_Do_You_Want_It_Official_Video.webm
+[10236.1688389778137207] 2017-12-13 21:53:02,774 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10236.1778466701507568] 2017-12-13 21:53:02,783 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=iGmVQlATHkk
+[10236.1838483810424805] 2017-12-13 21:53:02,789 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10257.1536619663238525] 2017-12-13 21:53:23,759 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=iGmVQlATHkk
+[10357.2435686588287354] 2017-12-13 21:55:03,848 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390548719063400449/Valoria#2532 on SV/General -> [LEAVE, DISCONNECT]
+[10357.2435686588287354] 2017-12-13 21:55:03,848 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390548719063400449/Valoria#2532 has left SV/General
+[10466.8510332107543945] 2017-12-13 21:56:53,456 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-iGmVQlATHkk-Trap_Music_Mix_2017_Suicide_Squad_Trap_Trap_Bass_Best_EDM.webm
+[10467.1905035972595215] 2017-12-13 21:56:53,795 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10467.1975083351135254] 2017-12-13 21:56:53,802 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10589.3220446109771729] 2017-12-13 21:58:55,927 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[10589.3315513134002686] 2017-12-13 21:58:55,936 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/Vg_UQwrY1FY.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r4---sn-hvcpauxa-nv4s.googlevideo.com/ei/tIIxWsn_KdqtYZ6gnzg/gcr/bg/playlist_type/DVR/mm/32/mn/sn-hvcpauxa-nv4s/ms/lv/mv/m/pl/21/dover/6/mt/1513194080/ip/84.242.156.21/ipbits/0/expire/1513215764/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,ei,gcr,playlist_type,mm,mn,ms,mv,pl/signature/5C4D4EB8C54A288E19014E2D03F1D6F09BBE663B.20F5C0AA8ED1BC616D8B51430DAEC25FC6E663CE/key/dg_yt0/playlist/index.m3u8
+[10589.6699790954589844] 2017-12-13 21:58:56,275 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10589.6864907741546631] 2017-12-13 21:58:56,291 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10594.6117668151855469] 2017-12-13 21:59:01,217 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 0401ef00] The TLS connection was non-properly terminated.\r\n'
+[10599.6314854621887207] 2017-12-13 21:59:06,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288120] The TLS connection was non-properly terminated.\r\n'
+[10604.6114737987518311] 2017-12-13 21:59:11,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288bc0] The TLS connection was non-properly terminated.\r\n'
+[10609.6304666996002197] 2017-12-13 21:59:16,235 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288540] The TLS connection was non-properly terminated.\r\n'
+[10614.6110739707946777] 2017-12-13 21:59:21,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288660] The TLS connection was non-properly terminated.\r\n'
+[10619.6300597190856934] 2017-12-13 21:59:26,235 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288540] The TLS connection was non-properly terminated.\r\n'
+[10624.6317470073699951] 2017-12-13 21:59:31,237 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06287e20] The TLS connection was non-properly terminated.\r\n'
+[10629.6110787391662598] 2017-12-13 21:59:36,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 062881a0] The TLS connection was non-properly terminated.\r\n'
+[10634.6310153007507324] 2017-12-13 21:59:41,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288c60] The TLS connection was non-properly terminated.\r\n'
+[10639.6312572956085205] 2017-12-13 21:59:46,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288a00] The TLS connection was non-properly terminated.\r\n'
+[10649.6314835548400879] 2017-12-13 21:59:56,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'    Last message repeated 1 times\r\n'
+[10649.6319839954376221] 2017-12-13 21:59:56,237 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288660] The TLS connection was non-properly terminated.\r\n'
+[10659.6111147403717041] 2017-12-13 22:00:06,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'    Last message repeated 1 times\r\n'
+[10659.6116192340850830] 2017-12-13 22:00:06,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288240] The TLS connection was non-properly terminated.\r\n'
+[10664.6309540271759033] 2017-12-13 22:00:11,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06287e20] The TLS connection was non-properly terminated.\r\n'
+[10669.6314694881439209] 2017-12-13 22:00:16,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288840] The TLS connection was non-properly terminated.\r\n'
+[10674.6108705997467041] 2017-12-13 22:00:21,216 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06287e20] The TLS connection was non-properly terminated.\r\n'
+[10679.6307275295257568] 2017-12-13 22:00:26,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288d00] The TLS connection was non-properly terminated.\r\n'
+[10684.6309437751770020] 2017-12-13 22:00:31,236 - FFMPEG - musicbot.player | In player.py::Thread-83 stderr reader(4424), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 06288660] The TLS connection was non-properly terminated.\r\n'
+[10684.7313096523284912] 2017-12-13 22:00:31,336 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[10687.1630990505218506] 2017-12-13 22:00:33,768 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=S37CvSvQN7o
+[10689.1645488739013672] 2017-12-13 22:00:35,769 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-S37CvSvQN7o-TITA_-_ANTILOPA_Official_4K_Video.webm
+[10689.5132799148559570] 2017-12-13 22:00:36,118 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10707.1468284130096436] 2017-12-13 22:00:53,752 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter - How Bad Do You Want It (Official Video
+[10711.3197572231292725] 2017-12-13 22:00:57,925 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10711.3277642726898193] 2017-12-13 22:00:57,933 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=6Ugaq6r6sQE
+[10711.8971054553985596] 2017-12-13 22:00:58,502 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !skip
+[10711.9151163101196289] 2017-12-13 22:00:58,520 - FFMPEG - musicbot.player | In player.py::MainThread(1596), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6Ugaq6r6sQE-Sevyn_Streeter_-_How_Bad_Do_You_Want_It_Official_Video.webm
+[10712.2457845211029053] 2017-12-13 22:00:58,851 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10712.3148436546325684] 2017-12-13 22:00:58,920 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10718.3438103199005127] 2017-12-13 22:01:04,949 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter - How Bad Do You Want It (Official Video
+[10721.2301282882690430] 2017-12-13 22:01:07,835 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter - How Bad Do You Want It (Official Video
+[10722.4117403030395508] 2017-12-13 22:01:09,017 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10722.4222486019134521] 2017-12-13 22:01:09,027 - INFO - musicbot.entry | In entry.py::MainThread(1596), line 195 in _download: Download cached: https://www.youtube.com/watch?v=6Ugaq6r6sQE
+[10724.6600749492645264] 2017-12-13 22:01:11,265 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2359 in on_message: 347029347112321027/samyhch#5264: !play Sevyn Streeter - How Bad Do You Want It (Official Video
+[10725.2955558300018311] 2017-12-13 22:01:11,900 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10728.9704010486602783] 2017-12-13 22:01:15,575 - DEBUG - musicbot.bot | In bot.py::MainThread(1596), line 763 in serialize_queue: Serializing queue for 390533883076149249
+[10746.8491361141204834] 2017-12-13 22:01:33,454 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/Music -> [LEAVE, MOVE]
+[10748.7792096138000488] 2017-12-13 22:01:35,384 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 390538592780550144/MusicBotSV#0348 on SV/Music -> [JOIN, MOVE]
+[10748.7792096138000488] 2017-12-13 22:01:35,384 - INFO - musicbot.bot | In bot.py::MainThread(1596), line 2539 in on_voice_state_update: 390538592780550144/MusicBotSV#0348 has joined SV/Music
+[10750.6170005798339844] 2017-12-13 22:01:37,222 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1596), line 2528 in on_voice_state_update: Voice state update for 347029347112321027/samyhch#5264 on SV/General -> [LEAVE, MOVE]
